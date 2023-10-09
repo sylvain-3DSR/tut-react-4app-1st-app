@@ -1,6 +1,6 @@
 // rafce : create a a basic react template
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header} from './containers'
+import { Footer, Blog, Possibility, Feature, WhatGPT3, Header} from './containers'
 import { CTA, Brand, navbar, Navbar } from './components'
 import './App.css'
 
@@ -14,7 +14,7 @@ const App = () => {
         </div>
         <Brand />
         <WhatGPT3 />
-        <Features />
+        <Feature />
         <Possibility />
         <CTA />
         <Blog />
